@@ -3,15 +3,26 @@ Python Wheels for RockChip RK3399Pro
 
 
 ## Download
-This repo use [Git Large File Storage](https://git-lfs.github.com/) to Upload Wheels. 
+1. Download from my pypi server
 
-1. Install Git-LFS
- * For Debian/Ubuntu, download git-lfs_xxxxxx.deb, then `dpkg install git-lfs_xxxxxx.deb`.
- * For RHEL/Fedora/CentOS, download git-lfs_xxxxxx.rpm, then `rpm --install git-lfs_xxxxxx.rpm`.
+ `pip install --extra-index-url http://47.74.1.205/`
+ 
+ Or edit pip.conf:
+```
+[global]
+index-url=http://47.74.1.205/simple/
 
-2. Git clone this repo.
+[install]
+trusted-host=47.74.1.205
+```
 
-Do **NOT** use "Download ZIP" or similar browser extensions.
+2. Download from Github
+
+ Install [Git-LFS](https://git-lfs.github.com/).
+ 
+ Git clone this repo.
+ 
+ Do **NOT** use "Download ZIP" or similar browser extensions.
 
 
 ## RockChip Official Wheels
