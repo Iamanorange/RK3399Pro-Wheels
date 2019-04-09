@@ -5,15 +5,15 @@ Python Wheels for RockChip RK3399Pro
 ## Download
 1. Download from my pypi server
 
- `pip install --extra-index-url http://47.74.1.205/ --trusted-host 47.74.1.205`
+ `pip install --extra-index-url http://orange3.cn/ --trusted-host orang3.cn`
  
  Or edit pip.conf:
 ```
 [global]
-index-url=http://47.74.1.205/simple/
+index-url=http://orange3.cn/simple/
 
 [install]
-trusted-host=47.74.1.205
+trusted-host=orange3.cn
 ```
 
 2. Download from Github
